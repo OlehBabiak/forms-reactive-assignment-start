@@ -68,4 +68,9 @@ export class AppComponent implements OnInit {
   //   });
   //   return promise;
   // }
+
+  onSave(signupForm: FormGroup) {
+    const data = signupForm.value
+    console.log(data);
+  }
 }
